@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.card_principal{
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_secundario{
+    background-color:  hsl(216, 50%, 16%);
+    height: 400px;
+    width: 250px;
+    border-radius: 7px;
+    padding: 12px;
+    box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card_img{
+    width: 100%;
+    height: 230px;
+    position:static;
+    border-radius: 10px;
+    background-image: url(/images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.equilibrio{
+    padding: 12px 0 12px 0;
+    font-size: 12px;
+    font-weight: 100px;
+    color: white;
+}
+
+.equilibrio p{
+    font-size: 10px;
+    color: #ccc;
+    font-weight: 100;
+    padding-top: 7px;
+}
+
+.dias{
+    display: flex;
+    justify-content:space-between;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.dias p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias img{
+    margin-right: 5px;
+}
+
+.criar{
+    display: flex;
+    padding: 15px 0 10px 0;
+    margin-top: 12px;
+    border-top: 1px solid rgb(160, 157, 157) ;
+}
+
+.number{
+    color: hsl(178, 100%, 50%);
+}
+
+.criar p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 200;
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-image: url(/images/image-avatar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.criar img {
+    
+    border: 2px solid white;
+}
+
+.criar p span{
+   color: #ccc;
+   margin-right: 2px;
+}
+
+
+
