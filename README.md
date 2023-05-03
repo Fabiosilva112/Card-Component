@@ -1,6 +1,6 @@
 ## Card Component
 
-<img src="/images/responsivo02.jpg" alt="">
+<img src="/assets/img/Card-component.jpg" alt="">
 
 <h2>Sobre o projeto</h2>
 
